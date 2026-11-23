@@ -2131,7 +2131,11 @@ math-virtual-keyboard [part="keycap"] *,
     .dock-inner .dbtn{width:42px;height:48px;flex:none;}
     .dbtn span{display:none;}
     .dock-sep{display:none;}
-    .corner-br{display:none;}
+    .corner-bl{left:8px;bottom:74px;}
+    .corner-br{display:flex;left:auto;right:8px;bottom:74px;padding:3px;gap:1px;}
+    .corner-br .pg-label{font-size:11px;min-width:32px;}
+    .corner-br .pg-btn{width:32px;height:32px;}
+    .corner-br #addPage,.corner-br #delPage{display:none;}
     .panel{bottom:136px;}
     .pg-label{font-size:12px;}
     .pg-btn{width:34px;height:34px;}
