@@ -1,0 +1,17 @@
+{
+  "name": "physboard",
+  "private": true,
+  "version": "1.0.0",
+  "description": "唐长老超级物理白板",
+  "scripts": {
+    "tauri": "tauri",
+    "build": "tauri build",
+    "build:mac": "tauri build --target universal-apple-darwin --no-sign"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.12.4"
+  },
+  "dependencies": {
+    "@tauri-apps/plugin-fs": "^2.7.1"
+  }
+}
